@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /dictionary
+  port: 5788
+
+logging:
+  config: classpath:logback-spring.xml
+
+knowledge:
+  dictionary:
+    basepath: knowledge
+    languagePairPath: languagePairFile
+    professionalImgPath: professionalImg
+    articleImgPath: articleImg
+    ueditorPath: ueditor
+    termMarkFilePath: termMarkFile

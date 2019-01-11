@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /message
+  port: 5783

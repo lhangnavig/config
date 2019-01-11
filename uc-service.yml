@@ -1,0 +1,7 @@
+server:
+  servlet:
+    context-path: /uc
+  port: 5786
+
+flyway:
+  baselineOnMigrate: true
