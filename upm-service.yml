@@ -2,3 +2,7 @@ server:
   servlet:
     context-path: /upm
   port: 5787
+
+spring:
+  redis:
+    database: 2

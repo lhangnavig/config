@@ -14,3 +14,7 @@ knowledge:
     articleImgPath: articleImg
     ueditorPath: ueditor
     termMarkFilePath: termMarkFile
+
+spring:
+  redis:
+    database: 1
