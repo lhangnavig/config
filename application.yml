@@ -48,6 +48,7 @@ spring:
   jpa:
     database: MYSQL
     show-sql: true
+    open-in-view: true
     hibernate:
       ddl-auto: validate
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
