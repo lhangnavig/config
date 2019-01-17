@@ -8,7 +8,6 @@ cola:
     miniapp:
       appid: ${COLA_WECHAT_MINIAPP_APPID}
       secret: ${COLA_WECHAT_MINIAPP_SECRET}
-
 spring:
   redis:
     database: 1
