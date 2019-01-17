@@ -5,7 +5,8 @@ mysqlIp: 192.168.0.6
 
 logging:
   path: ../logs
-  level: debug
+  level:
+    root: debug
 
 #hystrix:
 #  command:
