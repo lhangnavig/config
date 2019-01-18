@@ -7,7 +7,9 @@ logging:
   path: ../logs
   level:
     root: debug
-
+feign:
+  hystrix:
+    enabled: false
 #hystrix:
 #  command:
 #    default:
