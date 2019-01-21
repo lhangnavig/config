@@ -1,5 +1,5 @@
 #配置
-oauthCenterIp: 192.168.70.50
+oauthCenterIp: localhost
 mysqlIp: 192.168.0.6
 
 
@@ -61,7 +61,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   redis:
-    host: 127.0.0.1
+    host: 192.168.124.18
     port: 6379
     password:
     lettuce:
