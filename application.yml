@@ -65,7 +65,7 @@ spring:
     port: 6379
     password:
     lettuce:
-      timeout: 1000
+      timeout: 100000
       pool:
         max-active: 200
         max-wait: -1ms
