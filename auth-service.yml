@@ -10,4 +10,4 @@ cola:
       secret: ${COLA_WECHAT_MINIAPP_SECRET}
 spring:
   redis:
-    database: 1
+    database: 2
