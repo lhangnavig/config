@@ -6,7 +6,7 @@ mysqlIp: 192.168.0.6
 logging:
   path: ../logs
   level:
-    root: info
+    root: debug
 feign:
   hystrix:
     enabled: false
