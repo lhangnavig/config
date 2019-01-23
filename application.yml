@@ -72,6 +72,8 @@ spring:
         min-idle: 0
 
 
+
+
 swagger2:
   enable: true
 #  base-package: com.honvay.cola
@@ -98,7 +100,11 @@ swagger2:
 management:
   security:
     enabled: false
-
+  endpoints:
+    web:
+      exposure:
+        include:
+          refresh,health,info
 eureka:
   instance:
     health-check-url-path: /health
