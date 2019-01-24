@@ -6,3 +6,5 @@ server:
 spring:
   redis:
     database: 2
+fastjson:
+  enable: true
