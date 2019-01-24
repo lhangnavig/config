@@ -33,11 +33,11 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: 192.168.0.6:9200
-#  rabbitmq:
-#    host: 192.168.3.78
-#    port: 5672
-#    username: admin
-#    password: admin
+  rabbitmq:
+    host: 192.168.3.73
+    port: 5672
+    username: knowledge
+    password: knowledge
   sleuth:
     sampler:
       percentage: 1
