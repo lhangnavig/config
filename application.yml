@@ -63,7 +63,7 @@ spring:
   redis:
     host: 192.168.3.73
     port: 6379
-    password:
+    password: xiangchao
     lettuce:
       timeout: 0
       pool:
