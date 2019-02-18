@@ -1,5 +1,5 @@
 #配置
-oauthCenterIp: 192.168.3.73
+oauthCenterIp: 192.168.0.199
 mysqlIp: 192.168.0.6
 
 
@@ -32,7 +32,7 @@ spring:
     elasticsearch:
       cluster-nodes: 192.168.0.6:9200
   rabbitmq:
-    host: 192.168.3.73
+    host: 192.168.0.6
     port: 5672
     username: knowledge
     password: knowledge
@@ -59,7 +59,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   redis:
-    host: 192.168.3.73
+    host: 192.168.0.6
     port: 6379
     password: xiangchao
     lettuce:
