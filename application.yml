@@ -18,13 +18,13 @@ feign:
 security:
   oauth2:
     resource:
-      user-info-uri: http://${oauthCenterIp}:5781/uaa/current
+      user-info-uri: http://${oauthCenterIp}:5790/uaa/current
       id: ${spring.application.name:}
     client:
       clientId: server
       clientSecret: server
-      accessTokenUri: http://${oauthCenterIp}:5781/uaa/oauth/token
-      userAuthorizationUri: http://${oauthCenterIp}:5781/uaa/oauth/authorize
+      accessTokenUri: http://${oauthCenterIp}:5790/uaa/oauth/token
+      userAuthorizationUri: http://${oauthCenterIp}:5790/uaa/oauth/authorize
       grant-type: client_credentials
       scope: server
 spring:
