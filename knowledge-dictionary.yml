@@ -18,3 +18,5 @@ knowledge:
 spring:
   redis:
     database: 1
+fastjson:
+  enable: true
