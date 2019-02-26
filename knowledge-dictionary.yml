@@ -1,7 +1,7 @@
 server:
   servlet:
     context-path: /dictionary
-  port: 5788
+  port: 5888
 
 logging:
   config: classpath:logback-spring.xml
