@@ -12,7 +12,6 @@ knowledge:
     languagePairPath: languagePairFile
     professionalImgPath: professionalImg
     articleImgPath: articleImg
-    professionalResizeImagePath: professionalResizeImg
     ueditorPath: ueditor
     termMarkFilePath: termMarkFile
 
