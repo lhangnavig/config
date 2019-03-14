@@ -7,16 +7,13 @@ logging:
   config: classpath:logback-spring.xml
 
 knowledge:
-  staticFileIp: http://192.168.3.78
   dictionary:
     basepath: knowledge
     languagePairPath: languagePairFile
     professionalImgPath: professionalImg
     articleImgPath: articleImg
-    professionalResizeImagePath: professionalResizeImg
     ueditorPath: ueditor
     termMarkFilePath: termMarkFile
-    excel-path: scrapyExcel
 
 spring:
   redis:
