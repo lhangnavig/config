@@ -7,7 +7,7 @@ logging:
   config: classpath:logback-spring.xml
 
 knowledge:
-  staticFileIp: 192.168.3.78
+  staticFileIp: http://192.168.3.78
   dictionary:
     basepath: knowledge
     languagePairPath: languagePairFile
