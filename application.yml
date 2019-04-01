@@ -42,7 +42,7 @@ spring:
     sampler:
       percentage: 1
   datasource:
-    url: jdbc:mysql://${mysqlIp}:3306/knowledge?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://${mysqlIp}:3306/knowledge?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=CTT
     username: root
     password: knowledge
     type: com.alibaba.druid.pool.DruidDataSource
