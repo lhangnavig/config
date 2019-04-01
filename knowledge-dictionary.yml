@@ -17,6 +17,7 @@ knowledge:
     ueditorPath: ueditor
     termMarkFilePath: termMarkFile
     excel-path: scrapyExcel
+    model: model
 
 spring:
   redis:
