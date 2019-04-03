@@ -111,6 +111,9 @@ eureka:
   instance:
     health-check-url-path: /health
     status-page-url-path: /info
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 60
     metadata-map:
       management.context-path: ${server.context-path:}
+
 
